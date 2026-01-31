@@ -74,7 +74,7 @@ function updateBoard() {
 
 function checkWin() {
     if (queenPositions.length === 8) {
-        statusElement.innerText = "YOU WIN! All 8 Queens are safe!";
+        statusElement.innerText = "YOU WIN!";
         statusElement.style.color = "green";
         gameActive = false;
     }
